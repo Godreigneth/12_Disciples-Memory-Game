@@ -29,3 +29,41 @@ html {
   transform: translate(-50%, -50%);
   color: #fafafa;
 }
+
+
+/* Game Section ***/
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.header .time {
+    float: left;
+    width: 180px;
+    font-weight: 500;
+}
+
+.header .start {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: -20px;
+    background-color: green;
+    border-radius: 10px;
+    color: #fefefe; 
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #f5f5f5;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Exo", sans-serif;
+    cursor: pointer;
+}
+
+.header .move {
+    float: right;
+    width: 180px;
+    font-weight: 500;
+}
