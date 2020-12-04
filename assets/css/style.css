@@ -31,7 +31,7 @@ html {
 }
 
 
-/* Game Section ***/
+/* Game Header Section ***/
 
 .header {
     width: 100%;
@@ -66,4 +66,20 @@ html {
     float: right;
     width: 180px;
     font-weight: 500;
+}
+
+/* Main Game Section */
+
+.room {
+    align-content: center;
+}
+
+.room .card {
+    display: inline-flex;
+    width: 145px;
+    height: 145px;
+    position: relative;
+    margin: 5px;
+    transition: .40s;
+    -webkit-transform-style: preserve-3d;
 }
